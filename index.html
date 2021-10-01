@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Successful</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="showcase">
+
+    <header>
+      <h2 class="logo">SUCCESS</h2>
+      <div class="toggle"></div>
+    </header>
+
+    <video src="car.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+
+    <div class="text">
+      <h2>Why Failure Is</h2>
+      <h3>Good for Success</h3>
+      <p>The sweetest victory is the one that’s most difficult. The one that requires you to reach down deep inside, to fight with everything you’ve got, to be willing to leave everything out there on the battlefield—without knowing, until that do-or-die moment, if your heroic effort will be enough. Society doesn’t reward defeat, and you won’t find many failures documented in history books.</p>
+      <a href="index.html">Explore</a>
+    </div>
+
+    <ul class="social">
+      <li><a href="https://www.facebook.com/" target="_blank"><img src="facebook.png"></a></li>
+      <li><a href="https://twitter.com/?lang=en" target="_blank"><img src="twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank"><img src="instagram.png"></a></li>
+    </ul>
+
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+    })
+  </script>
+
+</body>
+
+</html>
